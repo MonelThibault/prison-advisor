@@ -22,6 +22,7 @@
 </head>
 
 <body>
+
     <header class="container-fluid">
         <a href="index.html"><img src="./assets/images/logo/logo.svg" alt="logo"></a>
         <h1>Prison Advisor</h1>
@@ -47,44 +48,48 @@
     </div>
 
     <!-- CONTACT -->
-    <form class="container">
-        <div class=" mx-auto bg-bluegrey text-center text-white fw-bold fs-3 border-orange p-2 mb-3 w-50 m-50">
-            <div>
-                <label for="disabledSelect" class="form-label">Choississez un maton</label>
-                <select id="disabledSelect" class="form-select">
-                    <option>Didier Bavure
-                    <option>Johnny Castagne
-                    <option>Sophie Cellule
-                    <option>Vivien Joyeux
-                    <option>Dura lex sed Rex
-                    <option>Mark Trak
-                    <option>Léa de la Délation
-                    <option>Philippe de la Barre
-                    <option>Paul Pause
-                    </option>
-                </select>
+    <main>
+        <form class="container">
+            <div class=" mx-auto bg-bluegrey text-center text-white fw-bold fs-3 border-orange p-2 mb-3 w-50 m-50">
+                <div>
+                    <label for="disabledSelect" class="form-label">Choississez un maton</label>
+                    <select id="disabledSelect" class="form-select">
+                        <option>Didier Bavure
+                        <option>Johnny Castagne
+                        <option>Sophie Cellule
+                        <option>Vivien Joyeux
+                        <option>Dura lex sed Rex
+                        <option>Mark Trak
+                        <option>Léa de la Délation
+                        <option>Philippe de la Barre
+                        <option>Paul Pause
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="exampleInputEmail1" class="form-label">Adresse Email</label>
+                    <input type="email" required class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Votre adresse Email sera enregistrée par le gouvernement.
+                    </div>
+                </div>
+                <div>
+                    <label class="form-label">Nom Prénom</label>
+                    <input type="text" required class="form-control">
+                </div>
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg mt-2 btn-dark">Matchez !</button>
             </div>
-            <div>
-                <label for="exampleInputEmail1" class="form-label">Adresse Email</label>
-                <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Votre adresse Email sera enregistrée par le gouvernement.</div>
-            </div>
-            <div>
-                <label class="form-label">Nom Prénom</label>
-                <input type="text" required class="form-control">
-            </div>
-            <div>
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-lg mt-2 btn-dark">Matchez !</button>
-        </div>
-    </form>
+        </form>
+    </main>
 
 
     <!-- FOOTER -->
     <footer>
-        <p class="fs-4 mb-0">Tous droits réservés - Prison Advisor - Mentions légales 2022</p>
+        <p class="fs-4">Tous droits réservés - Prison Advisor - Mentions légales 2022</p>
     </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
